@@ -41,8 +41,8 @@ class _FadingTextAnimationState extends State<FadingTextAnimation> {
               opacity: _isVisible ? 1.0 : 0.0,
               duration: Duration(seconds: 1),
               child: Text(
-                'Hello, Flutter!',
-                style: TextStyle(fontSize: 24),
+                'Wassup, Flutter!',
+                style: TextStyle(fontSize: 30),
               ),
             ),
             SizedBox(height: 20), // Spacing between text and image
@@ -50,7 +50,7 @@ class _FadingTextAnimationState extends State<FadingTextAnimation> {
               opacity: _isVisible ? 1.0 : 0.0,
               duration: Duration(seconds: 1),
               child: Image.asset(
-                'Asset/spiderweb.jpg', // The path to your spiderweb image
+                'Asset/spiderweb.png', // The path to your spiderweb image
                 width: 150, // You can adjust the size as needed
                 height: 150,
               ),
